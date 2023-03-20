@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="../reset.css" />
+  <link rel="stylesheet" href="./inbox.css" />
+  <link rel="shortcut icon" href="../assets/favicon.png" type="image/png">
+  <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+  <title>Calculadora do Amor</title>
+
+</head>
+
+<body class="body">
+  <div class="container-button-list">
+    <div class="container-text">
+      <div class="container-home">Calculadora do Amor</div>
+      <div class="input-group mb-3">
+        <input id="primaryName" type="text" class="form-control" aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default" placeholder="Nome:">
+      </div>
+      <div class="input-group mb-3">
+        <input id="secondName" type="text" class="form-control" aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default" placeholder="Nome do seu Par:">
+      </div>
+      <button type="button" onclick="getLoveData()" class="btn btn-primary">Verificar</button>
+      <div class="container-all">
+        <div id="percentage" class="container-results"></div>
+        <div id="result" class="container-results"></div>
+      </div>
+    </div>
+</body>
+
+<script src="./inbox.js"></script>
+
+</html>

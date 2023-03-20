@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/favicon.png" type="image/png">
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./reset.css" />
+  <link rel="stylesheet" href="./index.css" />
+  <link rel="manifest" href="./app.webmanifest" />
+
+  <title>Calculadora do Amor</title>
+
+</head>
+
+<body class="body">
+  <div class='container-align-login'>
+    <div class="container-button">
+      <div class="container-img">
+        <img src="./assets/login.png" width="100">
+      </div>
+      <div class="div-align-login">
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email: email@gmail.com">
+      </div>
+      <div class="div-align-login">
+        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+      </div>
+      <div class="d-grid gap-2 col-8 mx-auto div-align-login">
+        <a class="btn btn-danger" role="button" href="./pages/inbox.html">Login</a>
+      </div>
+    </div>
+  </div>
+</body>
+
+<script src="./index.js"></script>
+<script type="module">
+  if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register(new URL('./sw.js', import.meta.url));
+  }
+</script>
+
+</html>

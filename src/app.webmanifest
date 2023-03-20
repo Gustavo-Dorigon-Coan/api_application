@@ -1,0 +1,13 @@
+{
+  "name": "Calculadora do Amor",
+  "short_name": "gvpwa",
+  "start_url": "http://localhost:80",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "Simple SPA used as example",
+  "icons": [{
+    "src": "./assets/login.png",
+    "sizes": "225x225",
+    "type": "image/png"
+  }]
+}
